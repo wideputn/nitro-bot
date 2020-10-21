@@ -11,4 +11,4 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send("Hello :wave: , I am Nitro. How's it going? ")
 
-client.run(os.environ("token"))
+client.run(os.environ["token"])
